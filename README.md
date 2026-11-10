@@ -58,11 +58,17 @@
 | 变速编辑 | 编辑 BPM 曲线 |
 
 音频扒谱模型（多音高分析、Transkun、MuScriptor）
+
 转录模型与分离模型下载链接：
+
 https://pan.baidu.com/s/5qAFYYButfZ3lRNX2f5yGbw
+
 在设置中下载模型依赖才能使用音频转谱功能
+
 <img width="606" height="569" alt="image" src="https://github.com/user-attachments/assets/772dc91c-2b35-424d-b24e-c3e61c5087bf" />
+
 设置按钮入口：中心按钮为设置
+
 <img width="130" height="127" alt="image" src="https://github.com/user-attachments/assets/21abf883-b9bc-4808-a7e8-f394fe5fb49b" />
 
 
