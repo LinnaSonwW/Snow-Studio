@@ -1,0 +1,17 @@
+# 运行时二进制: 体积大, 随 Release 中的完整 zip 分发, 不入库
+/python/
+/libs/
+/runtime/
+/*.exe
+
+# 用户数据与按需下载的扩展 (运行时生成)
+/data/downloads/*
+/data/models/*
+/data/vendor/*
+!/data/**/.gitkeep
+
+# 缓存与产物
+__pycache__/
+*.pyc
+*.snowproj.json
+*.zip
