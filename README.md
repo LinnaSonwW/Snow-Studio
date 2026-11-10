@@ -1,12 +1,36 @@
 # Snow Studio · Snow 原琴工作站
 
-面向「原琴」玩法的 MIDI 钢琴卷帘工作站。导入 MIDI 后可以在编辑器里修整音符，播放时把音符转换成游戏窗口可识别的键盘输入，并可用 FluidSynth 试听。
+面向「原琴」玩法的 MIDI 钢琴卷帘工作站。导入 MIDI 后可以在编辑器里修整音符，播放时把音符转换成游戏窗口可识别的键盘输入，可实时渲染乐谱。
 
 本仓库是**免安装便携版（基础版）**。
 
-> ⚠️ 草稿：本文档由 AI 整理，待作者人工校准。标有 `TODO` 的地方需要确认。
+## 主界面
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/2ee977fb-5e90-4f52-8ca1-d5f26e8dd1c8" />
 
-<!-- TODO: 放一张主界面截图 -->
+## 钢琴卷帘
+<img width="2560" height="1393" alt="image" src="https://github.com/user-attachments/assets/29642529-df25-466a-8ca2-628795b6187f" />
+
+## 扒谱界面
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/b83850ea-e8a1-4738-9636-e09e3f05052c" />
+
+## 悬浮窗口
+<img width="2279" height="1083" alt="image" src="https://github.com/user-attachments/assets/e583d32f-e54f-4d7a-840c-ddc14a54de43" />
+
+## 悬浮交互
+<img width="2251" height="422" alt="3c44026b92c400980899c6a98588f820" src="https://github.com/user-attachments/assets/c74a390c-904c-4b92-8dd4-11d305d6bf47" />
+<img width="2233" height="1110" alt="image" src="https://github.com/user-attachments/assets/c9328084-10a9-40c0-ab66-8fddc375428c" />
+<img width="2238" height="1124" alt="image" src="https://github.com/user-attachments/assets/3e1bfd80-ae58-4c31-8e75-c32498dce5f4" />
+<img width="2242" height="1130" alt="image" src="https://github.com/user-attachments/assets/9c443f6c-ab9c-4721-a485-adab82793944" />
+<img width="2223" height="1118" alt="image" src="https://github.com/user-attachments/assets/1bfbc4d1-2621-4966-9ae8-e4d6733b04d7" />
+
+## 乐谱动效
+<img width="2113" height="300" alt="image" src="https://github.com/user-attachments/assets/b9f3ee1f-633a-4577-bddd-7e5526de9f6f" />
+
+
+
+
+
+
 
 ## 下载与运行
 
@@ -28,11 +52,19 @@
 | 演奏输出 | 按键位映射把音符转换成 Windows 物理按键 |
 | 试听播放 | 每轨独立 SF2 音源，音量增幅最高 800% |
 | 原曲对照 | 编辑器内同步播放参考音频 |
+| 音频转录 | 集成钢琴专用Transkun模型和多乐器识别MuScriptor模型辅助扒谱 |
 | 演奏谱 | 节奏谱 / 轨道谱两种排版，播放时高亮当前音符 |
 | 悬浮演奏谱 | 置顶透明悬浮窗；悬停进度条呼出工具栏；径向菜单调整乐谱、播放、声音设置，长按确认后生效 |
 | 变速编辑 | 编辑 BPM 曲线 |
 
-基础版不含音频扒谱模型（多音高分析、Transkun、MuScriptor）。<!-- TODO: 说明扒谱扩展的获取方式，或提供完整版下载 -->
+音频扒谱模型（多音高分析、Transkun、MuScriptor）
+转录模型与分离模型下载链接：
+https://pan.baidu.com/s/5qAFYYButfZ3lRNX2f5yGbw
+在设置中下载模型依赖才能使用音频转谱功能
+<img width="606" height="569" alt="image" src="https://github.com/user-attachments/assets/772dc91c-2b35-424d-b24e-c3e61c5087bf" />
+设置按钮入口：中心按钮为设置
+<img width="130" height="127" alt="image" src="https://github.com/user-attachments/assets/21abf883-b9bc-4808-a7e8-f394fe5fb49b" />
+
 
 ## 快速上手
 
